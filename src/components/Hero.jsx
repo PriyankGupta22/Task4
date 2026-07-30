@@ -1,42 +1,17 @@
-import { Search, Menu } from "lucide-react";
+import { Search } from "lucide-react";
 import hero from "../assets/hero.png";
 
 const Hero = () => {
     return (
-        <section className="bg-[#f5f5f5] min-h-screen">
-            <div className="w-screen mx-auto">
-                <div className="relative h-[780px] overflow-hidden">
+        <section className="bg-[#f5f5f5] min-h-screen w-full pt-24">
+            <div className="w-full">
+                <div className="relative h-[780px] overflow-hidden w-full">
                     <img
                         src={hero}
                         alt="Hero"
                         className="absolute inset-0 w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-black/35"></div>
-                    <nav className="absolute top-0 left-0 w-full z-20 px-10 py-8 flex items-center justify-between">
-                        <div className="text-3xl font-bold text-white">
-                            Ever<span className="text-lime-400">Green</span>
-                        </div>
-                        <div className="hidden lg:flex items-center gap-10 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-8 py-3">
-                            <a href="#" className="text-white hover:text-lime-400 transition">
-                                Home
-                            </a>
-                            <a href="#" className="text-white hover:text-lime-400 transition">
-                                About
-                            </a>
-                            <a href="#" className="text-white hover:text-lime-400 transition">
-                                Properties
-                            </a>
-                            <a href="#" className="text-white hover:text-lime-400 transition">
-                                Contact
-                            </a>
-                        </div>
-                        <button className="hidden lg:block bg-lime-400 hover:bg-lime-500 text-black font-semibold px-6 py-3 rounded-full transition">
-                            Sign Up
-                        </button>
-                        <button className="lg:hidden text-white">
-                            <Menu size={30}/>
-                        </button>
-                    </nav>
                     <div className="absolute left-16 bottom-64 z-10">
                         <div className="flex gap-3 mb-6">
                             <span className="bg-white px-5 py-2 rounded-full text-sm font-medium">
@@ -63,7 +38,7 @@ const Hero = () => {
                             memories with your family.
                         </p>
                     </div>
-                    <div className="absolute left-1/2 -translate-x-1/2 bottom-8 w-[92%] bg-white rounded-3xl shadow-2xl p-8">
+                    <div className="absolute left-1/2 -translate-x-1/2 bottom-8 w-[calc(100%-2rem)] bg-white rounded-3xl shadow-2xl p-8">
                         <h2 className="text-2xl font-semibold mb-6">
                             Find the best place
                         </h2>

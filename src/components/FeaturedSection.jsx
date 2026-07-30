@@ -24,7 +24,7 @@ const stats = [
 
 const Stats = () => {
     return (
-        <section className="max-w-7xl mx-auto px-6 py-16">
+        <section className="w-full px-6 py-16">
 
             <div className="grid grid-cols-2 lg:grid-cols-4">
 
@@ -57,7 +57,7 @@ const Stats = () => {
 
 const FeaturedSection = () => {
     return (
-        <section className="max-w-7xl mx-auto py-24 px-6">
+        <section className="w-full py-24 px-6">
 
             <div className="flex items-start justify-between mb-14">
 

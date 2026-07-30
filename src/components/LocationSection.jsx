@@ -3,8 +3,8 @@ import { ArrowRight } from "lucide-react";
 
 const LocationSection = () => {
     return (
-        <section className="max-w-7xl mx-auto px-6 py-20">
-            <div className="grid lg:grid-cols-2 gap-16 items-center bg-[#fafafa] rounded-[35px] p-10">
+        <section className="w-full px-6 py-20">
+            <div className="grid lg:grid-cols-2 gap-16 items-center bg-[#fafafa] rounded-[35px] p-10 w-full">
                 <div>
                     <img
                         src={map}
