@@ -40,8 +40,6 @@ const Footer = () => {
 
             </section>
 
-            {/* Footer */}
-
             <section className="w-full px-6 py-20">
 
                 <div className="flex flex-col lg:flex-row justify-between gap-10">
